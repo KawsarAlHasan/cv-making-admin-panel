@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the sidebar */
+.ant-menu {
+  width: 320px !important;
+}
+
+.ant-menu .ant-menu-item-selected {
+  background-color: #ff6041 !important;
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-item-selected a {
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-item:hover {
+  background-color: #ff6041 !important;
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-submenu-title:hover {
+  background-color: #ff6041 !important;
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-item a {
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ant-menu .ant-menu-item .anticon {
+  font-size: 18px;
+}
+
+.ant-table .ant-table-thead > tr > th::before {
+  display: none !important;
+}
+
+/* Hover state for submenu items */
+.ant-menu .ant-menu-submenu .ant-menu-item:hover {
+  background-color: #ff6041 !important;
+}
+
+/* Selected state for submenu items */
+.ant-menu .ant-menu-submenu .ant-menu-item-selected {
+  background-color: #ff6041 !important;
+}
+
+.mainBG {
+  background-color: #fdf0eb !important;
+}
+
+.bgBlack {
+  background-color: #ff6041 !important;
+}
+
+.mainColor {
+  color: #ff6041 !important;
+}
+
+.my-main-button {
+  color: #fefefe;
+  background-color: #ff6041 !important;
+  border: none;
+}
+
+.my-main-button:hover {
+  background-color: #dd2501 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mainTitle {
+  color: #ff6041;
+  font-size: 24px;
+  font-weight: 600;
+}
